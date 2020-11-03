@@ -1,0 +1,2 @@
+This folder contains just single .c files, and the program prints a string to the screen. This is not so useful program, but you got to know
+how to compile main.c file using the command gcc -Wall main.c -o main. 
