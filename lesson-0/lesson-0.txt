@@ -1,0 +1,16 @@
+A C program may contain multiple .c files (C source files), .h files (C header files), Assembly source files, Assembly include file and 
+object file libraries.
+
+A C project may have one of two objectives; you can either create an executable or object file libraries. An object file library are 
+intended to be used with other C project. 
+
+Compiler tool chain work flow: there are three main components, (1) C compiler, (2) Assembler and (3) Linker. A C compiler convertes .c 
+and .h files into Assembly files. The assembler is responsible for creating object files. From here we can do two things; (1) creating 
+object file libraries (the Archiver is used to do this) and (2) creating an executable using the Linker, where the Linker used object 
+files and object file libraries. The Linker should be provided a linker script. A compiler tool chain normally come with a default linker script. To be precise, the Linker combines the object files created from your C program and the startup code when creating the excecutable file. 
+
+I will use following tools in this course:
+	*Ubuntu 20.04 PC
+	*GCC toolchain
+
+This is a brief introduction to C, however I will try to make it concise enough so that you can easily find ways to move forward.    
