@@ -1,0 +1,13 @@
+Text Substitution Labels:
+	*We can use 
+		#define label text	
+	to replace label by text in main.c file.
+
+	*For example,
+		#define PI (3.14159265359)
+	means that every place the preprocessor finds PI in main.c, 
+	PI will be replaced by (3.14159265359).
+
+	*Alternatively, we could have defined a variable like this:
+		const float PI = 3.14159265359
+	But this will waster a few bytes in the memory.
