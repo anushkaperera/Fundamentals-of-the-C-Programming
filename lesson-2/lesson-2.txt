@@ -1,12 +1,13 @@
-This folder contains just single .c files, and the program prints a string to the screen. This is not so useful program, but you got to know
-how to compile main.c file using the command gcc -Wall main.c -o main. 
+A variable has a data type and a name (or an identifier). Different data types may occupy different number of bytes in the memory. 
 
-About main.c:
-	*In this file we use the function <printf>. Where does it come from? This functions prototype is defined in the header file stdio.h, therefore 
-	we need to included stdio.h file in main.c. We will learn more about header files in details later.
+Data types:
+	*unsigned char, char (=signed char)
+	*unsigned short int, short int (=signed short int)
+	*unsigned int, int (=signed int)
+	*unsigned long int, long int (=signed long int)
+	*unsigned long long int, long long int (=unsigned long long int)
+	*float
+	*double
+	*long double
 
-	*If you want to create an executable, every C program must have one .c file which defines the <main> function. The <main> is the one
-	starts after the C runtime code executed. 
-
-	*<int main()> means the <main> function taked no input parameters and returns an integer.   
-
+In this lesson you will learn how to find respective sizes of different data types using the sizeof operator. Also, how to define and use variables.
